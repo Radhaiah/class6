@@ -1,0 +1,256 @@
+1.Find the culprit
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( "I’m JavaScript!");//just replacing ' with "
+ </script>
+ Whats the error in this ?
+</body>
+</html>
+
+1b
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>
+  </head>
+<body>
+
+</body>
+</html>
+
+alert("I’m invoked!");
+
+1c
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+
+</body>
+</html>
+
+alert("I'm JavaScript!");// first it will alert this line
+alert('Hello') //seconde it will read this line and alerting it
+alert(`Wor
+ ld`)//third it will read this line and alerting it
+alert(3 +
+1
++ 2);fourtgh it will read this line and do the operation sum and alerting the sum value
+
+1d
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+
+</body>
+</html>
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin = fname+" "+lname;
+alert( admin );
+
+1e
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+
+</body>
+</html>
+let fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+let name = fname+" "+lname;
+alert( `hello ${name}` ); 
+
+1f
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+</body>
+</html>
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(+a + +b);
+
+1g
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+</body>
+</html>
+var a = 2 ;
+var b=12
+
+if (a>b) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
+
+1h
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+</body>
+</html>
+
+let a = prompt("Enter a number?");
+
+if (a>5) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+}
+
+1i
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+</body>
+</html>
+let value = prompt('How many runs you scored in this ball');
+if (value == 4) {
+      console.log("You hit a Four");
+} else if (value == 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+
+1j
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+</body>
+</html>
+
+let i = 3;
+while (i) {
+  console.log( i-- );
+}
+
+1k
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+</body>
+</html>
+for (let num = 2; num <= 20; num += 1) 
+{
+    if(num%2==0)
+    {
+    console.log(num)
+  }
+}
+
+1l
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+</body>
+</html>
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+}
+
+1m
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+</body>
+</html>
+var lemein = "0";
+var lemeout = 0;
+var msg = "";
+if (lemein) {
+ msg += "hi";
+ }// it will execute this loop and breaks the comand
+if (lemeout) {
+ msg += "Hello";
+}
+console.log(msg);
+
+3a
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>it will redirecting to js file
+  </head>
+<body>
+</body>
+</html>
+aa = (f,s,t) => {
+    // let f,s,t;
+    console.log(f,s,t);
+    if(f>s &&f>t){
+    console.log(f)}
+    else if(s>f && s>t){
+    console.log(s)}
+    else{
+    console.log(t)}
+   }
+   aa(1,2,3);
+
+4b
+let n = "123";
+
+console.log(add(n));
+function add()
+{
+let sum = 10;
+for(var i=0;i<n.length;i++){
+ sum+=+n[i];
+ 
+ }
+ return sum;
+}
+
